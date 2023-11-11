@@ -1,12 +1,15 @@
+//TODO:..Finding the factorial of any number...
 #include<iostream>
 using namespace std;
-class solution{
-public:
-long long int ans=1; 
-    for(int i=2;i<=N;i++)
-    {
-        //Calculating the factorial
-        ans=ans*(long long)(i); 
+int main(){
+    int n;
+    cout<<"Enter n: ";
+    cin>>n;
+    int ans=1;
+    while(n>0){
+        ans=ans*n;
+        n--;
     }
-    return ans;
+    cout<<"Factorial is: "<<ans;
+    return 0;
 }

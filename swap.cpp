@@ -14,8 +14,8 @@ int main()
 
     cout<<a<<" "<<b<<"\n";
    
-    string c = "Aayush";
-    string d = "PANDEY";
+    string c = "Hello";
+    string d = "Bye";
 
     cout<<c<<" "<<d<<endl;
     
